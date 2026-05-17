@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background: #0f172a;
-  color: #f8fafc;
+  background: #fff7ed;
+  color: #2b2d42;
 }
 
 /* Container */
@@ -16,16 +16,16 @@ body {
 /* Heading */
 h1 {
   text-align: center;
-  color: #38bdf8;
+  color: #ff6b35;
 }
 
 /* Card */
 .card {
-  background: #1e293b;
+  background: #ffffff;
   padding: 20px;
   margin: 20px 0;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 /* Input */
@@ -34,15 +34,15 @@ input {
   padding: 10px;
   margin: 8px 0;
   border-radius: 8px;
-  border: 1px solid #334155;
-  background: #0f172a;
-  color: white;
+  border: 1px solid #ffb86b;
+  background: #fff;
+  color: #2b2d42;
   outline: none;
   transition: 0.2s;
 }
 
 input:focus {
-  border-color: #38bdf8;
+  border-color: #ff6b35;
 }
 
 /* Buttons */
@@ -51,36 +51,36 @@ button {
   margin-top: 10px;
   border: none;
   border-radius: 8px;
-  background: #38bdf8;
-  color: #0f172a;
+  background: #ff6b35;
+  color: white;
   cursor: pointer;
   transition: 0.3s;
   font-weight: 600;
 }
 
 button:hover {
-  background: #0ea5e9;
+  background: #e85d2a;
 }
 
 /* Result Card */
 .result-card {
   padding: 12px;
   border-radius: 10px;
-  background: #1d4ed8;
+  background: #ffe4c7;
   margin-top: 10px;
-  color: white;
+  color: #2b2d42;
 }
 
 /* Highlight */
 .score {
-  color: #22c55e;
+  color: #2ec4b6;
   font-weight: bold;
 }
 
 /* AI box */
 .ai-box {
-  background: #020617;
-  color: #e2e8f0;
+  background: #2b2d42;
+  color: #f8fafc;
   padding: 15px;
   border-radius: 10px;
   overflow-x: auto;
