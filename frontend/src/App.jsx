@@ -4,7 +4,7 @@ import JobForm from "./components/JobForm.jsx";
 import CandidateList from "./components/CandidateList.jsx";
 import ShortlistedResult from "./components/ShortlistedResult.jsx";
 
-const API = "https://candidate-system-852a.onrender.com";;
+const API = "https://end-sem-mock-1.onrender.com";;
 
 export default function App() {
   const [tab, setTab] = useState("match");
