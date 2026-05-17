@@ -2,7 +2,8 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background: #f5f7fb;
+  background: #0f172a;
+  color: #f8fafc;
 }
 
 /* Container */
@@ -15,16 +16,16 @@ body {
 /* Heading */
 h1 {
   text-align: center;
-  color: #2c3e50;
+  color: #38bdf8;
 }
 
 /* Card */
 .card {
-  background: #fff;
+  background: #1e293b;
   padding: 20px;
   margin: 20px 0;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
 /* Input */
@@ -33,13 +34,15 @@ input {
   padding: 10px;
   margin: 8px 0;
   border-radius: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: white;
   outline: none;
   transition: 0.2s;
 }
 
 input:focus {
-  border-color: #3498db;
+  border-color: #38bdf8;
 }
 
 /* Buttons */
@@ -48,34 +51,36 @@ button {
   margin-top: 10px;
   border: none;
   border-radius: 8px;
-  background: #3498db;
-  color: white;
+  background: #38bdf8;
+  color: #0f172a;
   cursor: pointer;
   transition: 0.3s;
+  font-weight: 600;
 }
 
 button:hover {
-  background: #2980b9;
+  background: #0ea5e9;
 }
 
 /* Result Card */
 .result-card {
   padding: 12px;
   border-radius: 10px;
-  background: #ecf6ff;
+  background: #1d4ed8;
   margin-top: 10px;
+  color: white;
 }
 
 /* Highlight */
 .score {
-  color: #27ae60;
+  color: #22c55e;
   font-weight: bold;
 }
 
 /* AI box */
 .ai-box {
-  background: #1e1e2f;
-  color: #fff;
+  background: #020617;
+  color: #e2e8f0;
   padding: 15px;
   border-radius: 10px;
   overflow-x: auto;
